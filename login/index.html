@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container" id="container">
+        
+        <div class="form-container register-conatiner">
+            <form>
+                <h1>Regisztráció</h1>
+                <input type="text" placeholder="Név" id="regisztracioNevInput">
+                <input type="email" placeholder="Email" id="regisztracioEmailInput">
+                <input type="password" placeholder="Jelszó" id="regisztracioJelszoInput">
+
+                <button type="button" id="regisztracioGomb">Regisztráció</button>
+            </form>
+        </div>
+
+        <div class="form-container login-container">
+            <form>
+                <h1>Bejelentkezés</h1>
+                <input type="email" placeholder="Email" id="bejelentkezesEmailInput">
+                <input type="password" placeholder="Jelszó" id="BejelentkezesJelszoInput">
+
+                <div class="content">
+                    <div class="checkbox">
+                        <input type="checkbox" name="checkbox" id="checkbox">
+                        <label>Remember me</label>
+                    </div>
+                    <div class="pass-link">
+                        <a href="#">Elfelejtetted a jelszót?</a>
+                    </div>
+                    <button type="button" id="BejelentkezesGomb">Login</button>
+                </div>
+            </form>
+        </div>
+
+        <div class="overlay-container">
+            <div class="overlay">
+                <div class="overlay-panel overlay-left">
+                    <h1 class="title">Hello</h1>
+                    <p>Ha van accod jelentkezz be</p>
+                    <button class="ghost" id="login">Bejelentkezés</button>
+                </div>
+
+                <div class="overlay-panel overlay-rigth"></div>
+                    <h1 class="title">Regisztrációs cucc</h1>
+                    <p>Ha nincs accod csinálj</p>
+                    <button class="ghost" id="register">Regisztráció</button>
+                </div>
+            </div>
+        </div>
+    
+    </div>
+</body>
+</html>
